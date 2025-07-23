@@ -21,7 +21,6 @@ jobs:
         uses: Cyb3r-Jak3/html5validator-action@v0.4
         with:
           root: .
-          use_docker: false
 
       - name: Setup Pages
         uses: actions/configure-pages@v3
